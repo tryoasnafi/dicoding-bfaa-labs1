@@ -1,6 +1,4 @@
 BarVolume/\.gradle
 BarVolume/\.idea
-MyIntentApp/\.gradle
-MyIntentApp/\.idea
-MyFlexibleFragment/\.gradle
-MyFlexibleFragment/\.idea
+MyIntentApp/.idea
+MyFlexibleFragment/.idea
