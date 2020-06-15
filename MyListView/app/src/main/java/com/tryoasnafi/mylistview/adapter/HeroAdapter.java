@@ -13,6 +13,8 @@ import com.tryoasnafi.mylistview.model.Hero;
 
 import java.util.ArrayList;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class HeroAdapter extends BaseAdapter {
     private Context ctx;
     private ArrayList<Hero> heroes = new ArrayList<>();
@@ -57,7 +59,7 @@ public class HeroAdapter extends BaseAdapter {
     }
 
     private class ViewHolder {
-        private ImageView imgHero;
+        private CircleImageView imgHero;
         private TextView tvName;
         private TextView tvDescription;
 
